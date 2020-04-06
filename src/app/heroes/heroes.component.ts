@@ -27,5 +27,6 @@ constructor(
   ngOnInit() {
     this.getHeroes();
   }
+  
 
 }

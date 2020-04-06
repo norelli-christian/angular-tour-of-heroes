@@ -9,6 +9,8 @@ import { MessageService } from './message.service';
 })
 export class HeroService {
 
+  selectedHero:Hero;
+
   constructor(private messageService: MessageService) { }
 
   getHeroes(): Observable<Hero[]> {
